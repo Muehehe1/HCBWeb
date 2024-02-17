@@ -228,6 +228,7 @@ h1, h2, h3, h4, h5{
 	z-index: -1;
 }
 
+
 @media only screen and (max-width: 1350px){
 	.subscribe-container{
 		z-index: 0;
@@ -341,4 +342,8 @@ h1, h2, h3, h4, h5{
 
 #myBtn:hover{
 	background-color: #548dd4;
+}
+
+.padding-contact {
+    margin-bottom: 50px; /* Adjust the value as needed */
 }
