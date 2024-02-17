@@ -1,0 +1,420 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Online Courses (Tutors) Website</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+	<!-- css link -->
+	<link rel="stylesheet" href="style.css">
+	<!-- favicon -->
+	<link rel="icon" type="image/png" href="./images/logo.png">
+	<!-- font awesome linl -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+	<!-- jquery -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+
+	<!-- top button -->
+	<button onclick="topFunction()" id="myBtn" title="Go to Top"><i class="fa-solid fa-angle-up"></i></button>
+	<!-- navbar (header) -->
+	<nav class="navbar navbar-expand-lg fixed-top">
+	  <div class="container">
+	    <a class="navbar-brand" href="index.html">
+	    	<img src="./images/logo.png" alt="logo" width="60px">
+	    </a>
+
+	    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+	      <span class="navbar-toggler-icon"></span>
+	      <img src="./images/menu.png" alt="menu-bars" width = "25px">
+	    </button>
+
+	    <div class="collapse navbar-collapse" id="navbarScroll">
+	      <ul class="navbar-nav ms-auto text-center" style="--bs-scroll-height: 100px;">
+	        <li class="nav-item">
+	          <a class="nav-link mx-3 fs-5" href="index.html">Home</a>
+	        </li>
+
+	        <li class="nav-item">
+	          <a class="nav-link mx-3 fs-5" href="courses.html">All Courses</a>
+	        </li>
+
+	        <li class="nav-item">
+	          <a class="nav-link mx-3 fs-5" href="about.html">About</a>
+	        </li>
+
+	        <li class="nav-item">
+	          <a class="nav-link mx-3 fs-5" href="contact.html">Contact Us</a>
+	        </li>
+	        
+	        <div>
+	        	<button class="btn btn-warning rounded-5 px-4 py-2 start-btn">Start Courses</button>	
+	        </div>
+
+	      </ul>
+
+	    </div>
+	  </div>
+	</nav>
+
+	<!-- hero (home) -->
+	<div class="container-fluid hero-container d-flex align-items-center">
+		<div class="row container mx-auto margin-top-hero">
+			<div class="col-lg-6 col-md-12 hero-text text-white">
+				<h6>
+					<i class="fa-solid fa-circle" style="color: #f7b500"></i>
+					&nbsp;&nbsp;&nbsp; ON-DEMAND COURSE
+				</h6>
+
+				<h1>Complete Front End Web Development Course</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, Natus iure voluptatum impedit nihil perspiciatis exercitationem?</p>
+				<!-- button -->
+				<div class="hero-btn">
+					<button class="btn btn-light rounded-5 px-4 py-2 start-course">Start Course</button>
+					<button class="btn btn-link rounded-5 px-4 py-2 text-decoration-none text-white">View All Courses <i class="fa-solid fa-arrow-right"></i></button>
+				</div>
+			</div>
+
+			<!-- video(hero) -->
+			<div class="col-lg-6 col-md-12 hero-video">
+				<iframe width="560" height="400" class="rounded-4" src="https://www.youtube.com/embed/Ketx-TfR8e8?si=eIbdrCZ4vrlMq2HI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+				
+			</div>
+		</div>
+	</div>
+
+	<!-- logo -->
+	<div class="container text-center mt-5 mb-5">
+		<div class="row row cols-2 row-cols-sm-3 row-cols-md-6 row cols-lg-6">
+			<div class="col py-4">
+				<img src="./images/logos/html5.svg" class="img-fluid" alt="logo1">
+			</div>
+
+			<div class="col py-4">
+				<img src="./images/logos/css3.svg" class="img-fluid" alt="logo2">
+			</div>
+
+			<div class="col py-4">
+				<img src="./images/logos/js.svg" class="img-fluid" alt="logo3">
+			</div>
+
+			<div class="col py-4">
+				<img src="./images/logos/react.svg" class="img-fluid" alt="logo4">
+			</div>
+
+			<div class="col py-4">
+				<img src="./images/logos/vuejs.svg" class="img-fluid" alt="logo5">
+			</div>
+
+			<div class="col py-4">
+				<img src="./images/logos/angular.svg" class="img-fluid" alt="logo6">
+			</div>
+		</div>
+	</div>
+
+	<!-- what student say (review) -->
+	<div class="container px-5 review-container">
+		<div class="row align-items-center">
+			<div class="col-lg-5 col-md-12 col-12 position-relative">
+				<div class="mx-2 text-center">
+					<img src="./images/review.png" alt="review" class="img-fluid">
+				</div>				
+			</div>
+
+			<div class="col-lg-7 col-md-12 col-12 student-content">
+				<div class="pb-5">
+					<h5 class="heading">WHAT OUR HAPPY STUDENT SAY</h5>
+				</div>
+				
+				<div class="text-body">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+
+				<div class="name-button d-flex flex-column flex-sm-row justify-content-between mt-5 text-center">
+					<div class="student-name">
+						<h5 class="fw-hold">Elena Miles</h5>
+						<p>Student</p>
+					</div>
+
+					<div>
+						<button class="btn btn-link text-decoration-none text-dark fw-bold">
+							Read All Review <i class="fa-solid fa-arrow-right"></i>
+						</button>
+					</div>
+					
+				</div>
+			</div>				
+		</div>
+	</div>
+
+	<!-- featured courses -->
+	<div class="container px-5 review-container">
+		<div class="row align-items-center">
+			<div class="col-lg-6 col-md-12 col-12 position-relative">
+				<div class="mx-2 text-center">
+					<img src="./images/feature.jpg" alt="feature" class="img-fluid mb-3 rounded-4">
+				</div>				
+			</div>
+
+			<div class="col-lg-5 col-md-12 col-12">
+				<div class="mt-4">
+					<h6 class="heading pb-3"><i class="fa-solid fa-circle" style="color: #f7b500;"></i>
+						&nbsp;&nbsp;&nbsp;
+						WHAT OUR HAPPY STUDENT SAY
+					</h6>
+					<h1 class="pb-3 fw-bold">Getting Started With Javascript for Beginners</h1>
+					<div class="text-body">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, Natus iure voluptatum impedit nihil perspiciatis exercitationem?</p>
+					</div>
+				</div>
+
+				<div class="name-button d-flex flex-column flex-sm-row justify-content-between mt-5">
+					<div>
+						<p><i class="fa-solid fa-circle-check text-primary"></i> Fundamental</p>
+						<p><i class="fa-solid fa-circle-check text-primary"></i> Input & Output</p>
+					</div>
+
+					<div>
+						<p><i class="fa-solid fa-circle-check text-primary"></i> Conditional Branching</p>
+						<p><i class="fa-solid fa-circle-check text-primary"></i> 8+ more Lessons</p>
+					</div>
+
+					<div class="mt-4">
+						<div class="btn btn-primary rounded-5 px-4 py-2 start-btn">Start Course</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- courses (other part of featured course) -->	
+			<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 review-container card-container">
+				<div class="col">
+					<div class="card h-100 mx-1">
+						<img src="./images/course-01.jpg" class="card-img-top rounded-4" alt="course1">
+						<div class="card-body">
+							<p class="card-title mt-3 mb-3">FRONT END</p>
+							<h5 class="card-text fw-bold">HTML 5 Web Component Fundamentals</h5>
+						</div>
+
+						<div class="d-flex flex-column flex-sm-row justify-content-between mx-3">
+							<p><i class="fa-solid fa-user"></i> Beginners</p>
+							<p><i class="fa-solid fa-hourglass-end"></i> 2h 24m</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col">
+					<div class="card h-100 mx-1">
+						<img src="./images/course-02.jpg" class="card-img-top rounded-4" alt="course2">
+						<div class="card-body">
+							<p class="card-title mt-3 mb-3">FRONT END</p>
+							<h5 class="card-text fw-bold">Mastering CSS 3 FlexBox with Real World Projects</h5>
+						</div>
+
+						<div class="d-flex flex-column flex-sm-row justify-content-between mx-3">
+							<p><i class="fa-solid fa-user"></i> Beginners</p>
+							<p><i class="fa-solid fa-hourglass-end"></i> 3h 18m</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col">
+					<div class="card h-100 mx-1">
+						<img src="./images/course-03.jpg" class="card-img-top rounded-4" alt="course3">
+						<div class="card-body">
+							<p class="card-title mt-3 mb-3">FRONT END</p>
+							<h5 class="card-text fw-bold">Full Stack Web Development Hooks & Redux</h5>
+						</div>
+
+						<div class="d-flex flex-column flex-sm-row justify-content-between mx-3">
+							<p><i class="fa-solid fa-user"></i> Beginners</p>
+							<p><i class="fa-solid fa-hourglass-end"></i> 4h 23m</p>
+						</div>
+					</div>
+				</div>
+			</div>			
+		</div>
+	</div>
+
+	<!-- testimonial -->
+	<div class="container testimonial-container">
+		<div class="d-sm-flex justify-content-between align-items-end">
+			<div>
+				<h6>TESTIMONIALS</h6>
+				<h1 class="fw-bold">Trusted by Thousands of <br> Students and Tutors</h1>
+			</div>
+
+			<div>
+				<button class="btn btn-light rounded-5 px-4 py-2 start-course">Start Learning</button>
+			</div>
+		</div>
+
+		<div class="row row-cols-1 row-cols-md-2 g-4 ">
+			<div class="col">
+				<div class="card px-3 py-2 rounded-4">
+					<img src="./images/review1.jpg" class="card-img-top mx-3 rounded-4" alt="review1">
+					<div class="card-body">
+						<p class="card-text">
+							"The platform offers diverse course, providing practical skills for my career
+							goals. It's a
+							fantastic resource for anyone looking to enhance their skills and explore new
+							areas of
+							interest."
+						</p>
+						<p class="card-title">Emily Chen</p>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="col">
+				<div class="card px-3 py-2 rounded-4">
+					<img src="./images/review2.jpg" class="card-img-top mx-3 rounded-4" alt="review2">
+					<div class="card-body">
+						<p class="card-text">
+							"The platform offers diverse course, providing practical skills for my career
+							goals. It's a
+							fantastic resource for anyone looking to enhance their skills and explore new
+							areas of
+							interest."
+						</p>
+						<p class="card-title">Samual Rodriguez</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="col">
+				<div class="card px-3 py-2 rounded-4">
+					<img src="./images/review3.jpg" class="card-img-top mx-3 rounded-4" alt="review3">
+					<div class="card-body">
+						<p class="card-text">
+							"The platform offers diverse course, providing practical skills for my career
+							goals. It's a
+							fantastic resource for anyone looking to enhance their skills and explore new
+							areas of
+							interest."
+						</p>
+						<p class="card-title">Raj Patel</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="col">
+				<div class="card px-3 py-2 rounded-4">
+					<img src="./images/review4.jpg" class="card-img-top mx-3 rounded-4" alt="review4">
+					<div class="card-body">
+						<p class="card-text">
+							"The platform offers diverse course, providing practical skills for my career
+							goals. It's a
+							fantastic resource for anyone looking to enhance their skills and explore new
+							areas of
+							interest."
+						</p>
+						<p class="card-title">Jorden Williams</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="bg-color text-secondary px-4 py-5 mt-5 text-center subscribe-container">
+		<div class="py-5">
+			<div class="col-lg-6 mx-auto">
+				<p class="text-white">SUBSCRIBE</p>
+				<h1 class="display-5 fw-bold text-white">All Access Membership</h1>
+				<p class="fs-5 mb-4 text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat.</p>
+
+				<div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+					<button class="btn btn-light rounded-5 px-4 py-2">Subscribe & Save</button>
+					
+				</div>
+			</div>
+			
+		</div>	
+	</div>
+
+	<!-- footer -->
+
+	<div class="container-fluid footer-color">
+	  <footer class="container row row-cols-1 row-cols-sm-2 row-cols-md-5 mx-auto justify-content-center">
+	    <div class="col-md-6 mb-3">
+	      <a href="/" class="d-flex align-items-center mb-5 link-body-emphasis text-decoration-none">
+	        <img src="./images/logo.png" width="80px" class="img-fluid" alt="">
+	      </a>
+	      <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	      tempor incididunt ut labore et dolore magna aliqua.</p>
+
+	      <div class="icons mt-4">
+	      	<a href=""><i class="fa-brands fa-facebook fs-5"></i></a>
+	      	<a href=""><i class="fa-brands fa-instagram fs-5 mx-3"></i></a>
+	      	<a href=""><i class="fa-brands fa-x-twitter fs-5"></i></a>
+	      	<a href=""><i class="fa-brands fa-youtube fs-5 mx-3"></i></a>
+	      </div>
+	    </div>
+
+	    <div class="col-md-2 mb-3">
+	      <h5 class="text-white">Section</h5>
+	      <ul class="nav flex-column">
+	        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 p-0 text-white">Home</a></li>
+	        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 p-0 text-white">Features</a></li>
+	        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 p-0 text-white">Pricing</a></li>
+	        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 p-0 text-white">FAQs</a></li>
+	        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 p-0 text-white">About</a></li>
+	      </ul>
+	    </div>
+
+	    <div class="col-md-2 mb-3">
+	      <h5 class="text-white">Section</h5>
+	      <ul class="nav flex-column">
+	        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 p-0 text-white">Home</a></li>
+	        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 p-0 text-white">Features</a></li>
+	        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 p-0 text-white">Pricing</a></li>
+	        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 p-0 text-white">FAQs</a></li>
+	        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 p-0 text-white">About</a></li>
+	      </ul>
+	    </div>
+
+	    <div class="col-md-2 mb-3">
+	      <h5 class="text-white">Section</h5>
+	      <ul class="nav flex-column">
+	        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 p-0 text-white">Home</a></li>
+	        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 p-0 text-white">Features</a></li>
+	        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 p-0 text-white">Pricing</a></li>
+	        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 p-0 text-white">FAQs</a></li>
+	        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 p-0 text-white">About</a></li>
+	      </ul>
+	    </div>
+
+	  </footer>
+
+	  <!-- small footer -->
+	  <div class="container d-flex flex-column flex-sm-row justify-content-between py-4 border-top">
+	  	<div class="d-flex">
+	  		<div class = "mb-2 text-white">Copyright &copy; Powered by Online Programming Courses</div>	
+	  	</div>
+
+	  	<div class="d-flex">
+	  		<div class = "mb-2 text-white">Powered by Online Programming Courses</div>	
+	  	</div>
+	  	
+	  </div>
+	</div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+     <script src="javascript.js"></script>
+</body>
+</html>
