@@ -15,11 +15,11 @@ $(document).ready(function(){
 $(document).ready(function(){
 	$(window).scroll(function(){
 		if($(this).scrollTop() === 0){
-			$('.navba.toggler img').css('display', 'block');
-			$('.navba.toggler .navbar-toggler-icon').css('display', 'none');
+			$('.navbar-toggler img').css('display', 'block');
+			$('.navbar-toggler .navbar-toggler-icon').css('display', 'none');
 		} else{
-			$('.navba.toggler img').css('display', 'none');
-			$('.navba.toggler .navbar-toggler-icon').css('display', 'block');
+			$('.navbar-toggler img').css('display', 'none');
+			$('.navbar-toggler .navbar-toggler-icon').css('display', 'block');
 		}
 	})
 });
